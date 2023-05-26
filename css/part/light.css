@@ -1,0 +1,90 @@
+
+.header .dark {
+    background-color: black;
+    color: white;
+
+    
+    box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.1);
+  }
+  .header .dark a {
+    color: white;
+  }
+  
+  @media (max-width: 767.98px) {
+    .menu__body .dark {
+      background-color: black;
+
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .icon-menu.dark span {
+      background-color: white;
+    }
+  }
+  
+  .wrapper .dark {
+    background-color: black;
+
+    color: white;
+
+  }
+  .wrapper .dark a {
+    color: white;
+  }
+  
+  body .dark {
+    background-color: black;
+    color: white;
+  }
+  
+  .catalog-header__line .dark {
+    background-color: black;
+
+
+    box-shadow: 15px 15px 20px rgba(255, 255, 255, 0.2);
+  }
+  
+  .filter__list .dark li a {
+    color: white;
+  }
+  .filter__list .dark li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .catalog-card.dark {
+    border: 0.5px solid white;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.35);
+  }
+  
+
+
+  .filter__list .dark li a {
+    color: black;
+  }
+  .filter__list .dark li a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+  .footer .dark a {
+    color: white;
+  }
+  
+  .footer__phone .dark {
+    color: black;
+
+
+  }
+  
+  .footer-menu__list .dark {
+    background-color: black;
+
+
+  }
+  .footer-menu__list .dark li a {
+    color: white;
+  }
+  

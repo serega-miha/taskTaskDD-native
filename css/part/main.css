@@ -1,0 +1,282 @@
+.wrapper {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+
+  }
+  .wrapper a {
+    color: black;
+  }
+
+  ._container {
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  @media (max-width: 1182px) {
+    ._container {
+      max-width: 970px;
+    }
+  }
+  @media (max-width: 991.98px) {
+    ._container {
+      max-width: 750px;
+    }
+  }
+  @media (max-width: 767.98px) {
+    ._container {
+      max-width: none;
+      padding: 0 10px;
+    }
+  }
+  
+body {
+    color: #000000;
+
+  }
+  
+  .catalog-header__line {
+    background-color: white;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .catalog-card {
+    border: 0.5px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+  }
+  
+  footer {
+    background-color: white;
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.8);
+    color: black;
+  }
+  footer a {
+    color: black;
+  }
+  
+  .footer-menu__link {
+    color: black;
+  }
+  .footer-menu__link:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__phone {
+    color: black;
+
+  }
+  
+  .footer-menu__list li a {
+    color: black;
+
+  }
+  
+
+
+
+
+  .page {
+    flex: 1 1 auto;
+    margin: 75px 0px 0px 0px;
+  }
+  
+  .page-title {
+    padding: 30px 20px;
+  }
+  
+  .title-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-container h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0px 0px 50px 0px;
+  }
+  .title-container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0px 0px 40px 0px;
+  }
+  
+  .title-img {
+    display: flex;
+    max-width: 1170px;
+    object-fit: cover;
+  }
+  .title-img img {
+    padding: 10px;
+    max-width: 100%;
+  }
+  
+  .catalog-header {
+    margin: 0px auto;
+
+  }
+  
+  .catalog-header__line {
+    width: 100%;
+    padding: 20px 10px;
+  }
+  
+  .catalog-header__title {
+    z-index: 10;
+    font-size: 60px;
+
+    font-weight: 800;
+    margin: 0px 0px 20px 0px;
+  }
+  @media (max-width: 767.98px) {
+    .catalog-header__title {
+      font-size: 40px;
+    }
+  }
+  
+  .catalog-header__filter {
+    max-width: 350px;
+  }
+  
+
+
+
+
+  .filter__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .filter__link {
+    text-decoration: underline;
+  }
+  
+  .catalog-body {
+    margin: 50px auto;
+
+  }
+  
+  .catalog-body-cards {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    justify-content: center;
+  }
+  
+  .catalog-card {
+    flex: 1 1 25%;
+    max-width: 250px;
+    min-height: 100%;
+
+
+
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 10px;
+  }
+  @media (max-width: 767.98px) {
+    .catalog-card {
+      flex: 1 1 50%;
+    }
+  }
+  
+  .card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+  }
+  
+  .card-img {
+    margin: 10px auto;
+    height: 220px;
+  }
+  .card-img img {
+    max-width: 180px;
+    max-height: 220px;
+  }
+  
+  .card-info__title {
+    margin: 10px 0px 10px 0px;
+
+
+    flex: 1 1 auto;
+  }
+  .card-info__title h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 120%;
+  }
+  
+  .card-info__subtitle {
+    flex: 1 1 auto;
+  }
+  .card-info__subtitle h3 {
+    font-size: 16px;
+    font-weight: 500;
+
+
+    letter-spacing: 120%;
+  }
+  
+  .card-price {
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  
+  .card-data {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 120%;
+    padding: 10px 10px;
+  }
+  
+  .card-btn {
+    margin: 30px auto;
+  }
+  
+  .card-btn__link {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 120%;
+    background-color: orange;
+
+
+    padding: 10px 35px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  .card-btn__link:hover {
+    background-color: #c07e03;
+    box-shadow: 2px 2px 10px rgba(255, 165, 0, 0.8);
+  }
+  
+
+
+
+
+  
+  .btn-up {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+  }
+  .btn-up a {
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .btn-up a:hover {
+    background-color: #f7b740;
+  }
